@@ -24,8 +24,8 @@ export class Rover {
     yPos: number;
     direction: Direction;
     lost: boolean;
-    private maxX: number;
-    private maxY: number;
+    readonly maxX: number;
+    readonly maxY: number;
 
     constructor({ xPos, yPos, direction, lost = false, maxX, maxY }: RoverProps) {
         this.xPos = xPos;
