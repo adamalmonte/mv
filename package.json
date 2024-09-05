@@ -1,0 +1,22 @@
+{
+  "name": "multiverse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "take-home": "npx ts-node index.ts"
+  },
+  "engines": {
+    "npm": "10.8.2",
+    "node": "20.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
